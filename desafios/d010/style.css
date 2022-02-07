@@ -1,0 +1,107 @@
+@charset "UTF8";
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf);
+    
+}
+@font-face {
+    font-family: coolvetica;
+    src: url(fonts/coolvetica-condensed.ttf);
+}
+
+body{
+    background-color: rgba(46, 167, 100, 0.582);
+    margin: auto;
+    
+}
+
+header{
+    background-image:linear-gradient(to top,#1a5c38, #3cd681);
+    font-family: 'coolvetica-condensed';
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #175231be;
+}
+header > h1{
+    text-align: center;
+    font-family: 'coolvetica', 'verdana', sans-serif;
+    color: rgba(245, 245, 245, 0.767);
+    margin: auto;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding: 10px;
+}
+header > h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(245, 245, 245, 0.849);
+    font-weight: lighter;
+    font-size: 1em;
+    margin: auto;
+    padding-bottom: 30px;
+}
+header>nav>h2{
+    display: inline;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+main{
+    border-style: none;
+    background-color: white;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    padding: 10px;
+       
+}
+
+main>h2{
+    font: normal bold 1.5em 'idroid';
+    color: #1a5c38;
+}
+main>p{
+    text-align: justify;
+    text-indent: 1em;
+}
+main>section{
+    background-color: #3dce7e6b;
+    border-radius: 10px;
+    padding-top: 1px;
+    border-left: 2px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    
+}
+main>section>h2{
+    background-color: #35c274e0;
+    margin-top: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px 10px ;
+    font-size: 1em;
+}
+main>section>p{
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 0.75em;
+}
+main>section>ul{
+    display: inline;
+    font-size: 0.75em;
+}
+footer{
+    margin: auto;
+    background-color: #1a5c38;
+    text-align: center;
+    color: white;
+}
+    
+
